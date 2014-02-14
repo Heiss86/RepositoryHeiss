@@ -21,6 +21,21 @@ public class TeamExcersice {
             System.out.println("Kenneth er Awesome");
         }
         System.out.println("kenneth");
+        
+        boolean ErKennethDum = true;
+        int i = 100;
+        
+        while (ErKennethDum){
+            
+            System.out.println("Hvor dum er Kenneth? (1-10)");
+            System.out.println(""+i);
+            System.out.println("");
+            i -= 10;
+            if (i == 0){
+                ErKennethDum = false;
+            }
+        }
+        System.out.println("Nu er Kenneth ikke dum mere");
     }
     
 }
