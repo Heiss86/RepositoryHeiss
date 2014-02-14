@@ -20,7 +20,7 @@ public class TeamExcersice {
         for (int i = 0; i < 10; i++) {
             System.out.println("Kenneth er Awesome");
         }
-        System.out.println("Lort");
+        System.out.println("kenneth");
     }
     
 }
